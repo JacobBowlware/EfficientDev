@@ -1,0 +1,71 @@
+:root {
+  --var-background: #282828;
+  --var-primary: #FDFDFDFD;
+  --var-secondary: #404040;
+  --var-accent: #CCCCCC;
+}
+
+body {
+  background: var(--var-background);
+  font-family: 'Roboto', sans-serif;
+  color: var(--var-primary);
+  overflow-x: hidden;
+}
+
+/* Containers */
+.web-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.web-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.web-section-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.web-section-grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.web-section-dark {
+  background: var(--var-background);
+  color: var(--var-primary);
+}
+
+.web-section-light {
+  background: var(--var-primary);
+  color: var(--var-background);
+}
+
+@media screen and (min-width: 768px) {
+  .web-section-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Typography */
+.web-section-header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
