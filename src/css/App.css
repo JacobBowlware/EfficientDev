@@ -3,6 +3,7 @@
   --var-primary: #32292F;
   --var-secondary: #99E1D9;
   --var-accent: #f2f2f2;
+  --var-accent-dark: #5e5e5e;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--var-primary);
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 /* Containers */
@@ -18,7 +20,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .web-section {
@@ -123,6 +124,6 @@ body {
 .btn:hover {
   color: var(--var-background);
   background: var(--var-primary);
-  scale: 1.02;
+  scale: 1.01;
   opacity: 0.95;
 }

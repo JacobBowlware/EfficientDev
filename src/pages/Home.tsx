@@ -16,7 +16,7 @@ const Home = () => {
                     </button>
                 </div>
                 <div className="web-section-grid__item">
-                    <img className="web-section__item-img" src={manSitting} />
+                    <img className="web-section__item-img" src={manSitting} alt="" />
                 </div>
             </div>
             <div className="web-section-cont-dark">
