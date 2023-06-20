@@ -1,8 +1,8 @@
 :root {
-  --var-background: #282828;
-  --var-primary: #FDFDFDFD;
-  --var-secondary: #404040;
-  --var-accent: #CCCCCC;
+  --var-background: #FCFCFC;
+  --var-primary: #32292F;
+  --var-secondary: #99E1D9;
+  --var-accent: #f2f2f2;
 }
 
 body {
@@ -26,30 +26,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  padding: 0 1rem;
 }
 
 .web-section-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  width: 100%;
-  padding: 0 1rem;
 }
 
-.web-section-grid__item {
+.web-section,
+.web-section-grid {
+  width: 100%;
+  padding: 2rem 1rem;
+  max-width: 1400px;
+  margin-bottom: 2rem;
+}
+
+.web-section-cont-dark {
+  background: var(--var-accent);
+  color: var(--var-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
-}
-
-.web-section-dark {
-  background: var(--var-background);
-  color: var(--var-primary);
 }
 
 .web-section-light {
@@ -57,9 +57,40 @@ body {
   color: var(--var-background);
 }
 
+.web-section-dark {
+  background: var(--var-background);
+  color: var(--var-primary);
+}
+
+.web-section-grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.web-section__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.web-section__item-img {
+  width: 80%;
+  max-width: 600px;
+}
+
 @media screen and (min-width: 768px) {
   .web-section-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .web-section,
+  .web-section-grid {
+    padding: 2rem 2rem;
   }
 }
 
@@ -67,5 +98,31 @@ body {
 .web-section-header {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.web-section-subheader {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.text-highlight {
+  color: var(--var-secondary);
+}
+
+/* Button */
+.btn {
+  color: var(--var-background);
+  background: var(--var-primary);
+  font-weight: 700;
+  width: 100%;
+  transition: all .3s;
+}
+
+.btn:hover {
+  color: var(--var-background);
+  background: var(--var-primary);
+  scale: 1.02;
+  opacity: 0.95;
 }

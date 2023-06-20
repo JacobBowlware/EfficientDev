@@ -1,1 +1,19 @@
 .home-hero {}
+
+.home-hero-header {
+    font-size: 2.2rem;
+}
+
+.home-hero-body {
+    font-size: 1.4rem;
+}
+
+.home-hero__item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Latest Posts Section */
