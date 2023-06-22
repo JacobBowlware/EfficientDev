@@ -1,0 +1,19 @@
+.footer {
+    margin: 0;
+    padding: 1rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

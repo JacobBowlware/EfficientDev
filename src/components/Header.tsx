@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="navbar-container fixed-top">
             <nav className="navbar navbar-expand-lg ">
-                <a className="navbar-brand" href="/">Efficient<span className="text-highlight">Dev</span></a>
+                <Link className="navbar-brand" to="/#hero">Efficient<span className="text-highlight">Dev</span></Link>
                 <button
                     className="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarNav"
@@ -23,10 +23,16 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/">Blogs</Link>
+                            <Link className="nav-link" to="/">Front-End</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Tutorials</a>
+                            <a className="nav-link" href="/">Back-End</a>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">Productivity</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">Other</Link>
                         </li>
                     </ul>
                 </div>

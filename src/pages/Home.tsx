@@ -1,5 +1,13 @@
+import { Link } from 'react-router-dom';
+
+// Assets
 import manSitting from '../assets/man-sitting.svg';
+import EfficientDevLogo from '../assets/EfficientDevLogo.svg';
+
+// Components
 import PostCard from '../components/PostCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 let posts = [
     {
@@ -34,10 +42,13 @@ let posts = [
     }
 ]
 
+// TODO:
+// Replace the hero img with a bullet list card of reasons to read the blogs, eg:
+// - Learn New Technologies, Boost Your Productivity, etc.
 const Home = () => {
     return (
         <>
-            <div className="web-section-grid web-section-dark home-hero">
+            <div className="web-section-grid home-hero" id="hero">
                 <div className="web-section-grid__item home-hero__item">
                     <h1 className="web-section-header home-hero-header">
                         Efficient<span className="text-highlight">Dev</span>
@@ -50,9 +61,24 @@ const Home = () => {
                     </button>
                 </div>
                 <div className="web-section-grid__item">
-                    <img className="web-section__item-img" src={manSitting} alt="" />
+                    <img className="web-section__item-img" src={EfficientDevLogo} />
                 </div>
             </div>
+            {/* <div className="web-section-cont-dark">
+                <div className="web-section">
+                    <div className="web-section__item">
+                        <h2 className="web-section-header home-posts-header">
+                            Blog Categories
+                        </h2>
+                    </div>
+                    <div className="home-cat-container">
+                        <CatCard card={{ title: "Front-End", icon: faWindowMaximize }} />
+                        <CatCard card={{ title: "Back-End", icon: faDatabase }} />
+                        <CatCard card={{ title: "Productivity", icon: faClock }} />
+                        <CatCard card={{ title: "Other", icon: faGears }} />
+                    </div>
+                </div>
+            </div> */}
             <div className="web-section-cont-dark">
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">

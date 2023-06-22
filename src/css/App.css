@@ -32,7 +32,7 @@ body {
 .web-section-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .web-section,
@@ -51,6 +51,18 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.web-section-cont {
+  background: var(--var-background);
+  color: var(--var-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 1rem 0;
 }
 
 .web-section-light {
@@ -112,6 +124,19 @@ body {
   color: var(--var-secondary);
 }
 
+
+.link {
+  color: var(--var-primary);
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.link:hover {
+  color: var(--var-primary);
+  text-decoration: none;
+  opacity: 0.9;
+}
+
 /* Button */
 .btn {
   color: var(--var-background);
@@ -126,4 +151,35 @@ body {
   background: var(--var-primary);
   scale: 1.01;
   opacity: 0.95;
+}
+
+/* Lists */
+.web-section__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+}
+
+.web-section__list-item {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.web-section__list-item-icon {
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .web-section__list-item-icon {
+    display: none;
+  }
+
+  .web-section__list-item {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
 }

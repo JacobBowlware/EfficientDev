@@ -12,6 +12,7 @@ import './css/Home.css';
 import './css/Header.css';
 import './css/Footer.css';
 import './css/PostCard.css';
+import './css/CatCard.css';
 
 // Components
 import Header from './components/Header'
