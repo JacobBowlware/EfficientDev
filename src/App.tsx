@@ -9,8 +9,9 @@ import Home from './pages/Home'
 // CSS
 import './css/App.css';
 import './css/Home.css';
-import './css/Header.css'
-import './css/Footer.css'
+import './css/Header.css';
+import './css/Footer.css';
+import './css/PostCard.css';
 
 // Components
 import Header from './components/Header'

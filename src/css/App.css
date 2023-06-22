@@ -1,7 +1,7 @@
 :root {
   --var-background: #FCFCFC;
   --var-primary: #32292F;
-  --var-secondary: #99E1D9;
+  --var-secondary: #979797;
   --var-accent: #f2f2f2;
   --var-accent-dark: #5e5e5e;
 }
@@ -38,7 +38,7 @@ body {
 .web-section,
 .web-section-grid {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   max-width: 1400px;
   margin-bottom: 2rem;
 }
@@ -91,7 +91,7 @@ body {
 
   .web-section,
   .web-section-grid {
-    padding: 2rem 2rem;
+    padding: 5rem 2rem;
   }
 }
 

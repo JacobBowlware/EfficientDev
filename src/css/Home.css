@@ -19,3 +19,27 @@
 }
 
 /* Latest Posts Section */
+.home-posts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 1rem;
+}
+
+.home-posts-header {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .home-posts-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home-posts-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

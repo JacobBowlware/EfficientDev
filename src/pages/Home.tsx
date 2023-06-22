@@ -1,4 +1,38 @@
 import manSitting from '../assets/man-sitting.svg';
+import PostCard from '../components/PostCard';
+
+let posts = [
+    {
+        title: "How to use React Router",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2021-05-01",
+    },
+    {
+        title: "What is React?",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2023-02-20",
+    },
+    {
+        title: "What is TypeScript?",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2022-10-14",
+    },
+    {
+        title: "Simple React Tutorial",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2021-05-01",
+    },
+    {
+        title: "What is the MERN Stack?",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2021-05-01",
+    },
+    {
+        title: "Is Firebase worth it?",
+        description: "A quick tutorial on how to use React Router to create a single page application.",
+        date: "2021-05-01",
+    }
+]
 
 const Home = () => {
     return (
@@ -23,8 +57,17 @@ const Home = () => {
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">
                         <h2 className="web-section-header home-posts-header">
-                            Latest Posts
+                            Recent Posts
                         </h2>
+                    </div>
+                    <div className="home-posts-container">
+                        {
+                            posts.map((post, index) => {
+                                return (
+                                    <PostCard key={index} post={post} />
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>
