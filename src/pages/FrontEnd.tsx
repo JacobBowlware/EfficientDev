@@ -32,7 +32,7 @@ const FrontEnd = () => {
                         </a>
                     </div>
                     <div className="web-section-grid__item">
-                        <img className="web-section__item-img" src={FrontEndImg} />
+                        <img className="web-section__item-img" src={FrontEndImg} alt="" />
                     </div>
                 </div>
             </div>
