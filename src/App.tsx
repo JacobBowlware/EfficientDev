@@ -21,6 +21,10 @@ import './css/CatCard.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 
+
+/* TODO:
+- When the user clicks on a link in nav dropdown on mobile, the dropdown should close.
+*/
 function App() {
   const Root = () => {
     return <>

@@ -56,13 +56,13 @@ const Home = () => {
                     </h2>
                     <ul className="web-section__list">
                         <li className="web-section__list-item">
-                            <FontAwesomeIcon icon={faCheck} /> Learn New Technologies
+                            <FontAwesomeIcon icon={faCheck} className="web-section__list-icon-large" /> Learn New Technologies
                         </li>
                         <li className="web-section__list-item">
-                            <FontAwesomeIcon icon={faCheck} /> Boost Your Productivity
+                            <FontAwesomeIcon icon={faCheck} className="web-section__list-icon-large" /> Boost Your Productivity
                         </li>
                         <li className="web-section__list-item">
-                            <FontAwesomeIcon icon={faCheck} /> Follow Along With Tutorials
+                            <FontAwesomeIcon icon={faCheck} className="web-section__list-icon-large" /> Follow Along With Tutorials
                         </li>
                     </ul>
                     <button className="btn web-section-btn home-hero__btn">
