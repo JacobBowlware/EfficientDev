@@ -5,6 +5,9 @@ import {
 
 // Pages
 import Home from './pages/Home'
+import FrontEnd from './pages/FrontEnd';
+import BackEnd from './pages/BackEnd';
+import Productivity from './pages/Productivity';
 
 // CSS
 import './css/App.css';
@@ -31,8 +34,11 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
+        <Route path="/blogs/frontend" element={<FrontEnd />} />
+        <Route path="/blogs/backend" element={<BackEnd />} />
+        <Route path="/blogs/productivity" element={<Productivity />} />
         <Route path="*" element={<Home />} />
-      </Route >
+      </Route>
     )
   )
 

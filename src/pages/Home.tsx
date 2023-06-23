@@ -1,51 +1,48 @@
 import { Link } from 'react-router-dom';
 
 // Assets
-import manSitting from '../assets/man-sitting.svg';
 import EfficientDevLogo from '../assets/EfficientDevLogo.svg';
-import CodeWithMoshSS from '../assets/CodeWIthMoshSS.png';
 
 // Components
 import PostCard from '../components/PostCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 let posts = [
     {
-        title: "How to use React Router",
+        title: "How to set up ReactJS",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2021-05-01",
     },
     {
-        title: "What is React?",
+        title: "What is React",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2023-02-20",
     },
     {
-        title: "What is TypeScript?",
+        title: "What is TypeScript",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2022-10-14",
     },
     {
-        title: "Simple React Tutorial",
+        title: "Reverse a Linked List in Java",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2021-05-01",
     },
     {
-        title: "What is the MERN Stack?",
+        title: "What is the MERN Stack",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2021-05-01",
     },
     {
-        title: "Is Firebase worth it?",
+        title: "Simple Tricks to Boost Productivity when Programming",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         date: "2021-05-01",
     }
 ]
 
 // TODO:
-// Replace the hero img with a bullet list card of reasons to read the blogs, eg:
-// - Learn New Technologies, Boost Your Productivity, etc.
+// Create pages for Front-End blogs, Back-End blogs, and Productivity blogs.
 const Home = () => {
     return (
         <>
@@ -57,8 +54,19 @@ const Home = () => {
                     <h2 className="web-section-subheader home-hero-body">
                         A collection of blogs and tutorials to help you become a better developer.
                     </h2>
+                    <ul className="web-section__list">
+                        <li className="web-section__list-item">
+                            <FontAwesomeIcon icon={faCheck} /> Learn New Technologies
+                        </li>
+                        <li className="web-section__list-item">
+                            <FontAwesomeIcon icon={faCheck} /> Boost Your Productivity
+                        </li>
+                        <li className="web-section__list-item">
+                            <FontAwesomeIcon icon={faCheck} /> Follow Along With Tutorials
+                        </li>
+                    </ul>
                     <button className="btn web-section-btn home-hero__btn">
-                        Start Learning
+                        Start Developing
                     </button>
                 </div>
                 <div className="web-section-grid__item">

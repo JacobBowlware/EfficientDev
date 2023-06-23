@@ -1,14 +1,17 @@
 .footer {
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
+    background: var(--var-accent);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 .5rem;
+.footer-text {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
