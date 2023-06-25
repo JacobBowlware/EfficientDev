@@ -1,5 +1,4 @@
 import PostCard from "./PostCard";
-
 interface Post {
     title: string;
     description: string;

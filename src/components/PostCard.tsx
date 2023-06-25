@@ -1,8 +1,5 @@
 import React from 'react';
-
-import manSitting from '../assets/man-sitting.svg';
 import { Link } from 'react-router-dom';
-
 interface Post {
     title: string;
     description: string;

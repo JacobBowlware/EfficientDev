@@ -46,8 +46,6 @@ let posts = [
     }
 ]
 
-// TODO:
-// Create pages for Front-End blogs, Back-End blogs, and Productivity blogs.
 const Home = () => {
     return (
         <>
@@ -78,21 +76,6 @@ const Home = () => {
                     <img className="web-section__item-img" src={EfficientDevLogo} alt="" />
                 </div>
             </div>
-            {/* <div className="web-section-cont-dark">
-                <div className="web-section">
-                    <div className="web-section__item">
-                        <h2 className="web-section-header home-posts-header">
-                            Blog Categories
-                        </h2>
-                    </div>
-                    <div className="home-cat-container">
-                        <CatCard card={{ title: "Front-End", icon: faWindowMaximize }} />
-                        <CatCard card={{ title: "Back-End", icon: faDatabase }} />
-                        <CatCard card={{ title: "Productivity", icon: faClock }} />
-                        <CatCard card={{ title: "Other", icon: faGears }} />
-                    </div>
-                </div>
-            </div> */}
             <div className="web-section-cont-dark" id="posts">
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">
