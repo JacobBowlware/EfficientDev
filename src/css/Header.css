@@ -55,3 +55,9 @@
         border-bottom: none;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        padding: 1rem 3rem;
+    }
+}

@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .web-section {
@@ -115,6 +116,14 @@ body {
   .web-section,
   .web-section-grid {
     padding: 5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .web-section,
+  .web-section-grid {
+    padding: 5rem 3rem;
   }
 }
 
