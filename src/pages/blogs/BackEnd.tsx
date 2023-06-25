@@ -1,11 +1,13 @@
 import BlogPage from '../../components/BlogPage';
 import BackEndImg from '../../assets/BackEndImg.svg';
 
+// TODO: Add post snippets here upon completion of blog post
 const posts = [
     {
         title: "How to Create a React App",
         description: "This tutorial will show you how to create a React app.",
         image: BackEndImg,
+        link: "/blogs/backend/how-to-create-a-react-app"
     },
 ]
 

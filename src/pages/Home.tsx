@@ -12,31 +12,37 @@ let posts = [
         title: "How to set up ReactJS",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     },
     {
         title: "What is React",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     },
     {
         title: "What is TypeScript",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     },
     {
         title: "Reverse a Linked List in Java",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     },
     {
         title: "What is the MERN Stack",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     },
     {
         title: "Simple Tricks to Boost Productivity when Programming",
         description: "A quick tutorial on how to use React Router to create a single page application.",
         image: EfficientDevLogo,
+        link: "/blogs/frontend/how-to-set-up-reactjs"
     }
 ]
 

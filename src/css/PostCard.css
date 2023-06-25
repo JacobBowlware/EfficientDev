@@ -13,6 +13,7 @@
 .post-card:hover {
     cursor: pointer;
     scale: 1.01;
+    text-decoration: none;
 }
 
 .post-card-header {
