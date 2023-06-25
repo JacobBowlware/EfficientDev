@@ -158,7 +158,8 @@ body {
   opacity: 0.9;
 }
 
-#hero {
+#hero,
+#posts {
   scroll-margin-top: 4.5rem;
 }
 

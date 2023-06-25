@@ -65,9 +65,9 @@ const Home = () => {
                             <FontAwesomeIcon icon={faCheck} className="web-section__list-icon-large" /> Follow Along With Tutorials
                         </li>
                     </ul>
-                    <button className="btn web-section-btn home-hero__btn">
+                    <a href="/#posts" className="btn web-section-btn home-hero__btn">
                         Start Developing
-                    </button>
+                    </a>
                 </div>
                 <div className="web-section-grid__item">
                     <img className="web-section__item-img" src={EfficientDevLogo} />
@@ -88,7 +88,7 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="web-section-cont-dark">
+            <div className="web-section-cont-dark" id="posts">
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">
                         <h2 className="web-section-header home-posts-header">

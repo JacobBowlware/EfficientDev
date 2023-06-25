@@ -3,7 +3,10 @@
     background: var(--var-accent) !important;
     width: 100%;
     padding: 1rem;
+    transition: height 0.3s ease;
+    overflow: hidden;
 }
+
 
 .navbar-container {
     width: 100%;
