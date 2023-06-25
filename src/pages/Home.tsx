@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 
 // Assets
 import EfficientDevLogo from '../assets/EfficientDevLogo.svg';
@@ -12,32 +11,32 @@ let posts = [
     {
         title: "How to set up ReactJS",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2021-05-01",
+        image: EfficientDevLogo,
     },
     {
         title: "What is React",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2023-02-20",
+        image: EfficientDevLogo,
     },
     {
         title: "What is TypeScript",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2022-10-14",
+        image: EfficientDevLogo,
     },
     {
         title: "Reverse a Linked List in Java",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2021-05-01",
+        image: EfficientDevLogo,
     },
     {
         title: "What is the MERN Stack",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2021-05-01",
+        image: EfficientDevLogo,
     },
     {
         title: "Simple Tricks to Boost Productivity when Programming",
         description: "A quick tutorial on how to use React Router to create a single page application.",
-        date: "2021-05-01",
+        image: EfficientDevLogo,
     }
 ]
 
@@ -70,7 +69,7 @@ const Home = () => {
                     </a>
                 </div>
                 <div className="web-section-grid__item">
-                    <img className="web-section__item-img" src={EfficientDevLogo} />
+                    <img className="web-section__item-img" src={EfficientDevLogo} alt="" />
                 </div>
             </div>
             {/* <div className="web-section-cont-dark">

@@ -5,9 +5,9 @@ import {
 
 // Pages
 import Home from './pages/Home'
-import FrontEnd from './pages/FrontEnd';
-import BackEnd from './pages/BackEnd';
-import Productivity from './pages/Productivity';
+import FrontEnd from './pages/blogs/FrontEnd';
+import BackEnd from './pages/blogs/BackEnd';
+import Productivity from './pages/blogs/Productivity';
 
 // CSS
 import './css/App.css';
@@ -21,10 +21,6 @@ import './css/CatCard.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-
-/* TODO:
-- When the user clicks on a link in nav dropdown on mobile, the dropdown should close.
-*/
 function App() {
   const Root = () => {
     return <>
