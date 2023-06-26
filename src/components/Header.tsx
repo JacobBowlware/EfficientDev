@@ -46,11 +46,11 @@ const Header = () => {
                                 Productivity
                             </Link>
                         </li>
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <Link className="nav-link" to="/" onClick={toggleNavbar}>
                                 Other
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

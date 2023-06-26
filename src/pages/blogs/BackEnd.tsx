@@ -1,13 +1,15 @@
 import BlogPage from '../../components/BlogPage';
 import BackEndImg from '../../assets/BackEndImg.svg';
+import NodeJS from '../../assets/blog-images/NodeJS.jpeg';
 
 // TODO: Add post snippets here upon completion of blog post
 const posts = [
     {
-        title: "How to Create a React App",
-        description: "This tutorial will show you how to create a React app.",
-        image: BackEndImg,
-        link: "/blogs/backend/how-to-create-a-react-app"
+        title: "What is NodeJS",
+        description: "Learn about NodeJS and why it is so popular among back-end developers.",
+        image: NodeJS,
+        link: "/blogs/backend/how-to-create-a-react-app",
+        id: 1
     },
 ]
 

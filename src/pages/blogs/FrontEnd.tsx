@@ -1,13 +1,15 @@
 import BlogPage from "../../components/BlogPage";
 import FrontEndImg from '../../assets/FrontEndImg.svg';
+import ReactJS from '../../assets/blog-images/ReactJS.png';
 
 // TODO: Add post snippets here upon completion of blog post
 const posts = [
     {
-        title: "How to Create a React App",
-        description: "This tutorial will show you how to create a React app.",
-        image: FrontEndImg,
-        link: "/blogs/frontend/how-to-create-a-react-app"
+        title: "What is React JS",
+        description: "Dive into the world of React JS and learn why so many developers use it.",
+        image: ReactJS,
+        link: "/blogs/frontend/what-is-react-js",
+        id: 1
     },
 ]
 
