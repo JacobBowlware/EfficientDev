@@ -1,15 +1,16 @@
-import BlogPage from '../../components/BlogPage';
+import BlogPage from '../../components/Blogs/BlogPage';
 import BackEndImg from '../../assets/BackEndImg.svg';
 import NodeJS from '../../assets/blog-images/NodeJS.jpeg';
 
-// TODO: Add post snippets here upon completion of blog post
+// NOTE: Back-end posts will have subjectId: 2
 const posts = [
     {
         title: "What is NodeJS",
         description: "Learn about NodeJS and why it is so popular among back-end developers.",
         image: NodeJS,
         link: "/blogs/backend/how-to-create-a-react-app",
-        id: 1
+        id: 1,
+        subjectId: 2
     },
 ]
 

@@ -1,9 +1,10 @@
-import PostCard from "./PostCard";
+import PostCard from "../PostCard";
 interface Post {
     title: string;
     description: string;
     image: string;
     link: string;
+    id: number;
 }
 
 interface BlogProps {

@@ -1,15 +1,16 @@
-import BlogPage from "../../components/BlogPage";
+import BlogPage from "../../components/Blogs/BlogPage";
 import FrontEndImg from '../../assets/FrontEndImg.svg';
 import ReactJS from '../../assets/blog-images/ReactJS.png';
 
-// TODO: Add post snippets here upon completion of blog post
+// NOTE: Front-end posts will have subjectId: 1
 const posts = [
     {
         title: "What is React JS",
         description: "Dive into the world of React JS and learn why so many developers use it.",
         image: ReactJS,
         link: "/blogs/frontend/what-is-react-js",
-        id: 1
+        id: 1,
+        subjectId: 1
     },
 ]
 

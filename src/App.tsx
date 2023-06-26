@@ -19,6 +19,10 @@ import './css/PostCard.css';
 // Components
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Blog from './components/Blogs/Blog';
+
+// Blogs Posts
+import posts from './blogs/index';
 
 function App() {
   const Root = () => {
@@ -33,10 +37,23 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path="/blogs/frontend" element={<FrontEnd />} />
-        <Route path="/blogs/backend" element={<BackEnd />} />
-        <Route path="/blogs/productivity" element={<Productivity />} />
         <Route path="*" element={<Home />} />
+        <Route path="/blogs/1" element={<FrontEnd />} />
+        <Route path="/blogs/2" element={<BackEnd />} />
+        <Route path="/blogs/3" element={<Productivity />} />
+        {posts.map((post) => (
+          <Route
+            key={post.id}
+            path={`/blogs/${post.subjectId}/${post.id}`}
+            element={
+              <Blog
+                title={post.title}
+                body={post.body}
+                author={post.author}
+              />
+            }
+          />
+        ))}
       </Route>
     )
   )
