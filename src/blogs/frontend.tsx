@@ -1,11 +1,14 @@
 import { Post } from "."
 
+// Body HTML 
+import WhatIsReactJS from './blogBodys/WhatIsReactJS';
+
 const posts: Post[] = [
     {
-        title: "What is React?",
-        body: <p>React is a JavaScript library for building user interfaces.</p>,
+        title: "What is ReactJS",
+        body: WhatIsReactJS,
         author: "Jacob Bowlware",
-        date: "September 1, 2021",
+        date: "June 26, 2023",
         id: 1,
         subjectId: 1
     }

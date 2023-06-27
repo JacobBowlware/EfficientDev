@@ -15,6 +15,7 @@ import './css/Home.css';
 import './css/Header.css';
 import './css/Footer.css';
 import './css/PostCard.css';
+import './css/Blog.css';
 
 // Components
 import Header from './components/Header'
@@ -50,6 +51,7 @@ function App() {
                 title={post.title}
                 body={post.body}
                 author={post.author}
+                date={post.date}
               />
             }
           />

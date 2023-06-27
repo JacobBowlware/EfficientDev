@@ -32,17 +32,17 @@ const Header = () => {
                 <div className={`collapse navbar-collapse ${navbarOpen ? "show" : ""}`} id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/blogs/frontend/" onClick={toggleNavbar}>
+                            <Link className="nav-link" to="/blogs/1/" onClick={toggleNavbar}>
                                 Front-End
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/blogs/backend/" onClick={toggleNavbar}>
+                            <Link className="nav-link" to="/blogs/2/" onClick={toggleNavbar}>
                                 Back-End
                             </Link>
                         </li>
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/blogs/productivity/" onClick={toggleNavbar}>
+                            <Link className="nav-link" to="/blogs/3/" onClick={toggleNavbar}>
                                 Productivity
                             </Link>
                         </li>
