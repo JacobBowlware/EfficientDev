@@ -10,20 +10,21 @@ interface Post {
 interface BlogProps {
     posts: Post[];
     title: string;
+    highlightTitle?: string;
     subTitle: string;
     subList: string[];
     image: string;
     heroLink: string;
 }
 
-const BlogPage = ({ posts, title, subTitle, subList, image, heroLink }: BlogProps) => {
+const BlogPage = ({ posts, title, highlightTitle, subTitle, subList, image, heroLink }: BlogProps) => {
     return (
         <div className="blog-page">
             <div className="web-section-cont">
                 <div className="web-section-grid home-hero">
                     <div className="web-section-grid__item">
                         <h1 className="web-section-header">
-                            {title}
+                            {title} <span className="text-highlight">{highlightTitle}</span>
                         </h1>
                         <p className="web-section__item-text home-hero-body">
                             {subTitle}
