@@ -7,43 +7,15 @@ import PostCard from '../components/PostCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
+// Posts
+import { posts as frontEndPosts } from './blogs/FrontEnd';
+import { posts as backEndPosts } from './blogs/BackEnd';
+import { posts as productivityPosts } from './blogs/Productivity';
+
 let posts = [
-    {
-        title: "How to set up ReactJS",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    },
-    {
-        title: "What is React",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    },
-    {
-        title: "What is TypeScript",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    },
-    {
-        title: "Reverse a Linked List in Java",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    },
-    {
-        title: "What is the MERN Stack",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    },
-    {
-        title: "Simple Tricks to Boost Productivity when Programming",
-        description: "A quick tutorial on how to use React Router to create a single page application.",
-        image: EfficientDevLogo,
-        link: "/blogs/frontend/how-to-set-up-reactjs"
-    }
+    ...frontEndPosts,
+    ...backEndPosts,
+    ...productivityPosts
 ]
 
 const Home = () => {
@@ -85,7 +57,7 @@ const Home = () => {
                     </div>
                     <div className="home-posts-container">
                         {
-                            posts.map((post, index) => {
+                            posts.slice(0, 6).map((post, index) => {
                                 return (
                                     <PostCard key={index} post={post} />
                                 )

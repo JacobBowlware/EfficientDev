@@ -3,7 +3,7 @@ import BackEndImg from '../../assets/BackEndImg.svg';
 import NodeJS from '../../assets/blog-images/NodeJS.jpeg';
 
 // NOTE: Back-end posts will have subjectId: 2
-const posts = [
+export const posts = [
     {
         title: "What is NodeJS",
         description: "Learn about NodeJS and why it is so popular among back-end developers.",

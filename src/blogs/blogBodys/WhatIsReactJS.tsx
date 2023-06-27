@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ReactJS from '../../assets/blog-images/ReactJS.png'
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 export default (
     <div className="blog-body">
@@ -20,7 +18,7 @@ export default (
             </div>
         </div>
         <div className="blog-body__container">
-            <img src={ReactJS} className="blog-body__container-img" />
+            <img src={ReactJS} className="blog-body__container-img" alt="ReactJS Logo" />
         </div>
         <div className="blog-body__container mt-5">
             <div className="blog-body__container-item">
