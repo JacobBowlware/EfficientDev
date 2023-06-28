@@ -1,18 +1,7 @@
-import BlogPage from "../../components/Blogs/BlogPage";
+import BlogPage from "../../components/blogComponents/BlogPage";
 import FrontEndImg from '../../assets/FrontEndImg.svg';
-import ReactJS from '../../assets/blog-images/ReactJS.png';
 
-// NOTE: Front-end posts will have subjectId: 1
-export const posts = [
-    {
-        title: "What is ReactJS",
-        description: "Dive into the world of ReactJS and learn why so many developers use it.",
-        image: ReactJS,
-        link: "/blogs/1/1",
-        id: 1,
-        subjectId: 1
-    },
-]
+import posts from '../../blogs/frontend'
 
 const FrontEnd = () => {
     return (

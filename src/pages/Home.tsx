@@ -10,10 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 // Posts
-import { posts as frontEndPosts } from './blogs/FrontEnd';
-import { posts as backEndPosts } from './blogs/BackEnd';
-import { posts as productivityPosts } from './blogs/Productivity';
-import { Link } from 'react-router-dom';
+import frontEndPosts from '../blogs/frontend';
+import backEndPosts from '../blogs/backend';
+import productivityPosts from '../blogs/productivity';
 
 let posts = [
     ...frontEndPosts,
@@ -21,6 +20,12 @@ let posts = [
     ...productivityPosts
 ]
 
+/*
+TODO:
+- Add NodeJS post.
+- Add 5 Tips post.
+- Implement useEffect scroll to top on page load.
+*/
 const Home = () => {
     return (
         <>
@@ -48,7 +53,7 @@ const Home = () => {
                     </a>
                 </div>
                 <div className="web-section-grid__item">
-                    <img className="web-section__item-img web-section__item-img-no-shadow" src={EfficientDevLogo} alt="" />
+                    <img className="web-section__item-img" src={EfficientDevLogo} alt="" />
                 </div>
             </div>
             <div className="web-section-cont-dark" id="posts">
@@ -64,8 +69,7 @@ const Home = () => {
                                 return (
                                     <PostCard key={index} post={post} />
                                 )
-                            })
-                        }
+                            })}
                     </div>
                 </div>
             </div>

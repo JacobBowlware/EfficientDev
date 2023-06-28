@@ -1,18 +1,6 @@
-import BlogPage from '../../components/Blogs/BlogPage';
+import BlogPage from '../../components/blogComponents/BlogPage';
 import BackEndImg from '../../assets/BackEndImg.svg';
-import NodeJS from '../../assets/blog-images/NodeJS.jpeg';
-
-// NOTE: Back-end posts will have subjectId: 2
-export const posts = [
-    {
-        title: "What is NodeJS",
-        description: "Learn about NodeJS and why it is so popular among back-end developers.",
-        image: NodeJS,
-        link: "/blogs/backend/how-to-create-a-react-app",
-        id: 1,
-        subjectId: 2
-    },
-]
+import posts from '../../blogs/backend';
 
 const BackEnd = () => {
     return (

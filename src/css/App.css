@@ -101,13 +101,8 @@ body {
   width: 80%;
   max-width: 600px;
   border-radius: 9px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   height: 100%;
   transition: all .3s;
-}
-
-.web-section__item-img-no-shadow {
-  box-shadow: none;
 }
 
 .web-section__item-img:hover {

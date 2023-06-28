@@ -9,6 +9,8 @@ export interface Post {
     date: string;
     id: number;
     subjectId: number;
+    image: string;
+    description: string;
 };
 
 const posts: Post[] = [

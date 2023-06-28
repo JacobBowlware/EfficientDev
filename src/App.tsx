@@ -5,9 +5,9 @@ import {
 
 // Pages
 import Home from './pages/Home'
-import FrontEnd from './pages/blogs/FrontEnd';
-import BackEnd from './pages/blogs/BackEnd';
-import Productivity from './pages/blogs/Productivity';
+import FrontEnd from './pages/blogPages/FrontEnd';
+import BackEnd from './pages/blogPages/BackEnd';
+import Productivity from './pages/blogPages/Productivity';
 
 // CSS
 import './css/App.css';
@@ -20,7 +20,7 @@ import './css/Blog.css';
 // Components
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Blog from './components/Blogs/Blog';
+import Blog from './components/blogComponents/Blog';
 
 // Blogs Posts
 import posts from './blogs/index';

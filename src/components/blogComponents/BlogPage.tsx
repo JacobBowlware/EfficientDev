@@ -1,11 +1,5 @@
 import PostCard from "../PostCard";
-interface Post {
-    title: string;
-    description: string;
-    image: string;
-    link: string;
-    id: number;
-}
+import { Post } from '../../blogs/index'
 
 interface BlogProps {
     posts: Post[];
