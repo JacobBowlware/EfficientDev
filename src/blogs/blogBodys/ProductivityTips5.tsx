@@ -5,15 +5,10 @@ export default (
         <div className="blog-body__container">
             <div className="blog-body__container-item">
                 <p className="blog-body__container-p">
-                    ReactJS is a JavaScript library for building user interfaces. It is maintained by Facebook
-                    and a community of individual developers and companies. React
-                    can be used as a base in the development of web or mobile applications.
-                </p>
-                <p className="blog-body__container-p">
-                    The main purpose of React is to be fast, scalable, and simple; In the modern world of web
-                    development, these three things are essential for a successful product. Due to its simplicity,
-                    React is easy to learn and use. React also allows for the creation of reusable UI components - which
-                    can be a huge time saver when developing a large application.
+                    Increasing your productivity is one of the best ways to become a better developer. The more
+                    productive you are, the more you can get done in a shorter amount of time. This allows you to
+                    spend more time on other important tasks like learning new technologies or working on side
+                    projects. Here are 5 tips that will help you become more productive.
                 </p>
             </div>
         </div>
@@ -23,37 +18,59 @@ export default (
         <div className="blog-body__container mt-5">
             <div className="blog-body__container-item">
                 <h2 className="blog-body__container-item-header">
-                    How does React work
+                    1. Schedule your day
                 </h2>
                 <p className="blog-body__container-p">
-                    Instead of manipulating the browser's DOM (Document Object Model) directly, React creates
-                    a virtual DOM in memory, where it does all the necessary manipulating
-                    before making the changes in the browser - this allows React to be extremely fast. React will also help us create the
-                    routing end-points for our application, which is a crucial part of any website.
+                    Scheduling your day is a great way to stay on track and get things done. It helps you
+                    prioritize your tasks, and it also helps you avoid procrastination. When you are scheduling your
+                    day, you should make sure that you have enough time for each task. If you don't, then you
+                    should either cut down on the number of tasks or increase the amount of time you spend on
+                    each task - the key is to make it realistic.
                 </p>
                 <p className="blog-body__container-p">
-                    React uses JSX, which is a syntax extension to JavaScript. JSX allows us to write HTML-like
-                    code directly in our JavaScript files. This makes it easier to read and write code, and it also
-                    helps us avoid the use of string concatenation when creating elements.
+                    Some common strategies for scheduling your day include using a calendar, making a to-do list,
+                    and setting reminders. You can also try to use a combination of these strategies to create an
+                    effective schedule that works for you and is optimized for your needs.
+                </p>
+            </div>
+        </div>
+        <div className="blog-body__container mt-5">
+            <div className="blog-body__container-item">
+                <h2 className="blog-body__container-item-header">
+                    2. Set attainable goals
+                </h2>
+                <p className="blog-body__container-p">
+                    Setting attainable goals is a great way to stay motivated and productive. It helps you
+                    focus on what's important, and it also helps you avoid procrastination. When you set
+                    attainable goals, you should make sure that they are realistic and achievable - a goal that is too hard
+                    could result in burnout or frustration. Another thing to keep in mind is that you should set goals that are specific and measurable. This
+                    will help you track your progress and see how far you've come when motivation starts to
+                    wane.
+                </p>
+                <p className="blog-body__container-p">
+                    By setting clear goals, you will be able to see a clearer path-to-success  for you to follow.
+                    This will help you stay focused and motivated, which will ultimately lead to increased
+                    productivity.
                 </p>
             </div>
         </div>
         <div className="blog-body__container">
             <div className="blog-body__container-item">
                 <h2 className="blog-body__container-item-header">
-                    What are the benefits of React
+                    3. Prioritize sleep
                 </h2>
                 <p className="blog-body__container-p">
-                    React is a great tool for building modern web applications. It has many
-                    benefits, including the following: React is fast, scalable, simple, easy to learn, and it has
-                    a large community of developers who are constantly improving the library.
+                    Sleep is one of the most important things for your health and productivity. It helps you
+                    stay focused, improves your memory, and reduces stress. If you want to be more productive,
+                    then you should prioritize sleep. The best way to do this is by going to bed at the same time
+                    every night and waking up at the same time every morning. This will help your body get into a
+                    routine, which will make it easier for you to fall asleep and wake up.
                 </p>
                 <p className="blog-body__container-p">
-                    Another benefit of this large community is that there are many open source libraries
-                    available for React. These libraries can be used to add functionality to your application
-                    without having to write all the code yourself. This community also provides a lot of support
-                    for new developers who are just getting started with React. If you are ever
-                    stuck on a problem, there is a good chance that someone else has already solved it.
+                    Obviously there are times where you will need to stay up late or wake up early, and that's
+                    okay. Just make sure that you don't do it too often. Andrew Huberman, a neuroscientist at
+                    Stanford University, recommends that you get good sleep atleast 80% of the time -
+                    this allows for some flexibility while still maintaining a healthy sleep schedule.
                 </p>
             </div>
         </div>
@@ -63,23 +80,24 @@ export default (
                     The Key Takeaways
                 </h2>
                 <p className="blog-body__container-p">
-                    React is a great tool for building modern web applications. It has many
-                    benefits, including the following: React is fast, scalable, simple, easy to learn, and it has
-                    a large community of developers who are constantly improving the library.
+                    Being productive is one of the best ways to become a better developer. It allows you to
+                    spend more time on other important tasks like learning new technologies or working on side
+                    projects. Here are 3 tips that will help you become more productive:
                 </p>
                 <p className="blog-body__container-p">
-                    Due to this large community, there are many open source libraries that we can use
-                    to add functionality to our application, without having to write all the code ourselves. This
-                    community also provides a lot of support for new developers who are just getting
-                    started with React - be it tutorials, documentation, or even a friendly chat.
+                    <strong>1. Schedule your day - </strong> Scheduling your day is a great way to stay on track and get things done. It helps you
+                    prioritize your tasks, and it also helps you avoid procrastination.
                 </p>
                 <p className="blog-body__container-p">
-                    If you are interested in learning more about React and how to use it, check out my
-                    tutorial on <a href="/blogs/what-is-react-js">How to use ReactJS</a>. In this tutorial
-                    I will show you how to create a simple application using ReactJS. We will learn how to define routes,
-                    create components, and use state to manage our application's data.
+                    <strong>2. Set attainable goals - </strong> Setting attainable goals is a great way to stay motivated and productive. It helps you
+                    focus on what's important, and it lays out a clear path-to-success for you to follow.
+                </p>
+                <p className="blog-body__container-p">
+                    <strong>3. Prioritize sleep - </strong> Sleep is one of the most important things for your health and productivity. It helps you
+                    stay focused, improves your memory, and reduces stress. If you want to be more productive,
+                    then you should prioritize getting good sleep atleast 80% of the time.
                 </p>
             </div>
         </div>
-    </div>
+    </div >
 )

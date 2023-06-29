@@ -4,14 +4,14 @@ import ProductivityTips5 from "./blogBodys/ProductivityTips5";
 
 const posts: Post[] = [
     {
-        title: "5 Productivity Tips",
+        title: "3 Productivity Tips for Developers",
         body: ProductivityTips5,
         author: "Jacob Bowlware",
-        date: "September 1, 2021",
+        date: "June 18, 2023",
         id: 1,
         subjectId: 3,
         image: Productivity3,
-        description: "Learn how to be more productive with 5 simple tips.",
+        description: "Learn how to be more productive with 3 simple tips.",
     }
 ]
 
