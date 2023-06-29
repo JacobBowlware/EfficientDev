@@ -24,11 +24,13 @@ import Blog from './components/blogComponents/Blog';
 
 // Blogs Posts
 import posts from './blogs/index';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const Root = () => {
     return <>
       <Header />
+      <ScrollToTop />
       <Outlet />
       <Footer />
     </>
