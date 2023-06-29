@@ -9,7 +9,7 @@ const posts: Post[] = [
         title: "What is NodeJS",
         body: WhatIsNodeJS,
         author: "Jacob Bowlware",
-        date: "September 1, 2021",
+        date: "June 29, 2023",
         id: 1,
         subjectId: 2,
         image: NodeJS,

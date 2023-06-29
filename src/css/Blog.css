@@ -82,7 +82,10 @@
     list-style-type: none;
 }
 
-.blog-body__list-item {}
+.blog-body__list-item {
+    font-weight: 300;
+    margin-bottom: .7rem;
+}
 
 .blog-body__list-item-icon {
     font-size: .8rem;
