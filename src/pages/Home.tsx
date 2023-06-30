@@ -60,7 +60,7 @@ const Home = () => {
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">
                         <h2 className="web-section-header home-posts-header">
-                            Recent <span className="text-highlight">Posts</span>
+                            Recent Posts
                         </h2>
                     </div>
                     <div className="home-posts-container">
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="web-section-cont">
                 <div className="web-section pb-0">
                     <h2 className="web-section-header home-posts-header">
-                        <span className="text-highlight">Resource</span> Recommendations
+                        Resource Recommendations
                     </h2>
                     <div className="home-resources-container__item">
                         <h3 className="home-resources__item-header">
