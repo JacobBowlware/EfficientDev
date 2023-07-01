@@ -43,7 +43,7 @@ const BlogPage = ({ posts, title, highlightTitle, subTitle, subList, image, hero
                 <div className="web-section">
                     <div className="web-section__item">
                         <h2 className="web-section-header blog-page__subheading">
-                            Explore Blogs
+                            Explore <span className="text-highlight">Blogs</span>
                         </h2>
                     </div>
                     <div className="home-posts-container">

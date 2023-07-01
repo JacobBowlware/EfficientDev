@@ -5,7 +5,8 @@ import posts from '../../blogs/backend';
 const BackEnd = () => {
     return (
         <BlogPage image={BackEndImg}
-            title="Back-End Development"
+            title="Back-End"
+            highlightTitle='Development'
             subTitle="Back-end development is the practice 
             of creating the server-side of a website or web application."
             subList={[

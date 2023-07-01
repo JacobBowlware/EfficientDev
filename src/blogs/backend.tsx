@@ -14,6 +14,16 @@ const posts: Post[] = [
         subjectId: 2,
         image: NodeJS,
         description: "Learn what NodeJS is and how it works.",
+    },
+    {
+        title: "How to use NodeJS with Express",
+        body: WhatIsNodeJS,
+        author: "Jacob Bowlware",
+        date: "June 29, 2023",
+        id: 2,
+        subjectId: 2,
+        image: NodeJS,
+        description: "Learn how to use NodeJS with Express and create a simple API.",
     }
 ]
 

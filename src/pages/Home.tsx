@@ -1,8 +1,9 @@
 
 // Assets
 import EfficientDevLogo from '../assets/EfficientDevLogo.svg';
-import HubermanSS from '../assets/HubermanSS.png';
-import MoshSS from '../assets/MoshSS.png';
+import FrontEndImg from '../assets/FrontEndImg.svg';
+import BackEndImg from '../assets/BackEndImg.svg';
+import ProductivityImg from '../assets/ProductivityImg.svg';
 
 // Components
 import PostCard from '../components/PostCard';
@@ -13,6 +14,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import frontEndPosts from '../blogs/frontend';
 import backEndPosts from '../blogs/backend';
 import productivityPosts from '../blogs/productivity';
+import { Link } from 'react-router-dom';
 
 let posts = [
     ...frontEndPosts,
@@ -22,9 +24,7 @@ let posts = [
 
 /*
 TODO:
-- Add NodeJS post.
-- Add 5 Tips post.
-- Implement useEffect scroll to top on page load.
+- Add an aesthetic 'Back to Top' Link
 */
 const Home = () => {
     return (
@@ -60,7 +60,7 @@ const Home = () => {
                 <div className="web-section">
                     <div className="web-section__item home-hero__item">
                         <h2 className="web-section-header home-posts-header">
-                            Recent Posts
+                            Recent <span className="text-highlight">Posts</span>
                         </h2>
                     </div>
                     <div className="home-posts-container">
@@ -73,57 +73,74 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="web-section-cont">
-                <div className="web-section pb-0">
-                    <h2 className="web-section-header home-posts-header">
-                        Resource Recommendations
-                    </h2>
-                    <div className="home-resources-container__item">
-                        <h3 className="home-resources__item-header">
-                            Programming
-                        </h3>
-                        <p className="home-resources__item-body">
-                            When it comes to programming, there are a lot of ways to learn new technologies. My
-                            favorite way is through video tutorials & courses.
-                            I find that I learn best when I can see the code in action and follow along.
+            <div className="web-section category-container">
+                <h2 className="web-section-header category-header">
+                    <span className="text-highlight">Blog</span> Categories
+                </h2>
+                <div className="category-grid">
+                    <div className="web-section-grid__item">
+                        <h2 className="web-section-header category-subheader">
+                            Front-End <span className="text-highlight">Development</span>
+                        </h2>
+                        <p className="web-section-body">
+                            Learn about the latest front-end technologies and
+                            how to use them to build modern web applications. Some common topics include:
+                            HTML, CSS, JavaScript, ReactJS, and more.
                         </p>
-                        <p className="home-resources__item-body">
-                            My favorite source of courses is <a href="https://codewithmosh.com//" target="_blank" rel="noreferrer">CodeWithMosh.com</a>.
-                            Mosh Hamedani is a software engineer with over 20 years of experience and has taught over 3 million students.
-                            He has a wide variety of courses on his website, ranging from beginner to advanced. I highly recommend
-                            checking it out if you are looking to learn a new technology.
+                        <p className="web-section-body">
+                            Whether you are just starting out or are an experienced developer,
+                            there is something here for you to learn.
                         </p>
+                        <Link to="/blogs/1/" className="btn web-section-btn home-hero__btn">
+                            View Posts
+                        </Link>
                     </div>
-                    <div className="home-resources-container__item">
-                        <h3 className="home-resources__item-header">
+                    <div className="web-section-grid__item">
+                        <img className="web-section__item-img" src={FrontEndImg} alt="" />
+                    </div>
+                </div>
+                <div className="category-grid">
+                    <div className="web-section-grid__item">
+                        <h2 className="web-section-header category-subheader">
+                            Back-End <span className="text-highlight">Development</span>
+                        </h2>
+                        <p className="web-section-body">
+                            Learn about the most popular back-end technologies and
+                            how to use them to build modern web applications. Some common topics include:
+                            NodeJS, ExpressJS, MongoDB, and more.
+                        </p>
+                        <p className="web-section-body">
+                            Back-end development can be intimidating, but it doesn't have to be.
+                            Here you will find tutorials and guides to help you get started.
+                        </p>
+                        <Link to="/blogs/2/" className="btn web-section-btn home-hero__btn">
+                            View Posts
+                        </Link>
+                    </div>
+                    <div className="web-section-grid__item">
+                        <img className="web-section__item-img" src={BackEndImg} alt="" />
+                    </div>
+                </div>
+                <div className="category-grid">
+                    <div className="web-section-grid__item">
+                        <h2 className="web-section-header category-subheader">
                             Productivity
-                        </h3>
-                        <p className="home-resources__item-body">
-                            Productivity is a very important skill to have as a developer. It can be the difference
-                            between finishing a project on time or missing a deadline. There are many ways to improve
-                            your productivity, but one of the best ways is to optimize your life and work environment.
+                        </h2>
+                        <p className="web-section-body">
+                            Learn how to be more productive and efficient with your time as
+                            a developer. Some common topics include: time management,
+                            organization, habit building, and more.
                         </p>
-                        <p className="home-resources__item-body">
-                            One of the best resources I have found for improving productivity
-                            is the <a href="https://hubermanlab.com/" target="_blank" rel="noreferrer">HubermanLab.com</a>. Dr. Andrew
-                            Huberman is a neuroscientist and tenured professor in the Department of Neurobiology at the Stanford University School of Medicine.
-                            He has a YouTube channel where he shares his research on neuroscience and how it can be applied to improve
-                            productivity, sleep, and overall health. I highly recommend checking out his channel if you are looking to
-                            improve your productivity.
+                        <p className="web-section-body">
+                            Being productive is a skill that can be learned and improved upon.
+                            Here you will find tips and tricks to help you become a more productive developer.
                         </p>
+                        <Link to="/blogs/3/" className="btn web-section-btn home-hero__btn">
+                            View Posts
+                        </Link>
                     </div>
-                    <div className="home-resources-container__item">
-                        <h3 className="home-resources__item-header">
-                            Overview
-                        </h3>
-                        <p className="home-resources__item-body">
-                            These are just a few of the resources I have found to be helpful in my journey as a developer.
-                            I encourage you to check them out and see if they can help you as well. I also encourage you to
-                            do some research and find other resources that can help you become a better developer.
-                        </p>
-                        <p className="home-resources__item-body">
-                            If you have any questions or comments, feel free to reach out to me on <a href="https://www.linkedin.com/in/jacob-bowlware-730824246/" target="_blank" rel="noreferrer">LinkedIn</a>.
-                        </p>
+                    <div className="web-section-grid__item">
+                        <img className="web-section__item-img" src={ProductivityImg} alt="" />
                     </div>
                 </div>
             </div>

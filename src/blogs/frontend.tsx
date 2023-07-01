@@ -14,6 +14,16 @@ const posts: Post[] = [
         subjectId: 1,
         image: ReactJS,
         description: "Learn about ReactJS, a JavaScript library for building UIs",
+    },
+    {
+        title: "How to use ReactJS",
+        body: WhatIsReactJS,
+        author: "Jacob Bowlware",
+        date: "June 26, 2023",
+        id: 2,
+        subjectId: 1,
+        image: ReactJS,
+        description: "Learn how to create custom components, use hooks, and more.",
     }
 ]
 
