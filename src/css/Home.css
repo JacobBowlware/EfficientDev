@@ -63,7 +63,7 @@
 .category-header {
     width: 100%;
     text-align: center;
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
 
 .category-subheader {
@@ -91,5 +91,9 @@
 
     .category-grid:nth-of-type(2) {
         direction: rtl;
+    }
+
+    .category-header {
+        margin: 0;
     }
 }

@@ -16,16 +16,16 @@ import backEndPosts from '../blogs/backend';
 import productivityPosts from '../blogs/productivity';
 import { Link } from 'react-router-dom';
 
+let frontEndCopy = [...frontEndPosts];
+let backEndCopy = [...backEndPosts];
+let productivityCopy = [...productivityPosts];
+
 let posts = [
-    ...frontEndPosts,
-    ...backEndPosts,
-    ...productivityPosts
+    ...frontEndCopy.splice(0, 3),
+    ...backEndCopy.splice(0, 2),
+    ...productivityCopy.splice(0, 1)
 ]
 
-/*
-TODO:
-- Add an aesthetic 'Back to Top' Link
-*/
 const Home = () => {
     return (
         <>
