@@ -16,7 +16,7 @@ const BackEnd = () => {
                 "And much more..."
             ]}
             posts={posts}
-            heroLink="/blogs/backend/#blogs"
+            heroLink="/blogs/2/#blogs"
         />
     );
 }

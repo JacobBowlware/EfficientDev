@@ -75,15 +75,17 @@
     width: 100%;
     max-width: 700px;
     border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .blog-body__list {
-    padding: 0;
-    list-style-type: none;
+    padding-left: 1rem;
+    list-style-type: disc;
+    width: 100%;
 }
 
 .blog-body__list-item {
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: .7rem;
 }
 

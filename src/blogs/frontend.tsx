@@ -15,10 +15,10 @@ const posts: Post[] = [
         id: 1,
         subjectId: 1,
         image: ReactJS,
-        description: "Learn about ReactJS, a JavaScript library for building UIs",
+        description: "Learn about ReactJS, a JavaScript library for building UIs.",
     },
     {
-        title: "What is HTML and CSS",
+        title: "What is HTML & CSS",
         body: WhatIsHTML,
         author: "Jacob Bowlware",
         date: "July 1, 2023",

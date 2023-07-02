@@ -14,7 +14,7 @@ const Productivity = () => {
                 "And much more..."
             ]}
             posts={posts}
-            heroLink='/blogs/productivity/#blogs'
+            heroLink='/blogs/3/#blogs'
         />
     );
 }
