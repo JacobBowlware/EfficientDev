@@ -33,15 +33,13 @@ export default (
                 <p className="blog-body__container-p">
                     HTML elements can be nested inside of each other. For example, the <code>{`<ul>`}</code> tag is
                     used to create an "unordered list", and the <code>{`<li>`}</code> tag is used to create
-                    a "list item". The <code>{`<li>`}</code> tag is nested inside of the <code>{`<ul>`}</code>
+                    a "list item". The <code>{`<li>`}</code> tag is nested inside of the <code>{`<ul> `}</code>
                     tag to create a list. Here is an example of what that looks like: <br></br>
                     <code>
-                        {`
-                            <ul> 
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                            </ul>
-                        `}
+                        &lt;ul&gt; <br />
+                        &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt; <br />
+                        &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt; <br />
+                        &lt;/ul&gt;
                     </code>
                 </p>
                 <p className="blog-body__container-p">
@@ -53,11 +51,9 @@ export default (
                     to create a container for the header, and then you could use the <code>{`<h1>`}</code> tag to create
                     the actual header. Here is an example of what that looks like: <br></br>
                     <code>
-                        {`
-                            <div>
-                                <h1>My Header</h1>
-                            </div>
-                        `}
+                        &lt;div&gt; <br />
+                        &nbsp;&nbsp;&lt;h1&gt;My Header&lt;/h1&gt; <br />
+                        &lt;/div&gt;
                     </code>
                 </p>
             </div>
@@ -85,13 +81,8 @@ export default (
                     wanted to change the color of all the paragraphs on our web page, we could use a class name to
                     group them together. Here is an example of what that looks like: <br></br>
                     <code>
-                        {`
-                            <p class="paragraph">Hello World!</p>
-                        `}
-                        <br></br>
-                        {`
-                            <p class="paragraph">This is a different paragraph - but has the same class</p>
-                        `}
+                        &lt;p class="paragraph"&gt;Hello World!&lt;/p&gt; <br></br>
+                        &lt;p class="paragraph"&gt; <br /> &nbsp;&nbsp; This is a different paragraph - but has the same class <br />&lt;/p&gt;
                     </code>
                 </p>
                 <p className="blog-body__container-p">
@@ -127,12 +118,10 @@ export default (
                     "unordered list", and the <code>{`<li>`}</code> tag is used to create a "list item". The <code>{`<li>`}</code> tag
                     is nested inside of the <code>{`<ul>`}</code> tag to create a list. Here is an example of what that looks like: <br></br>
                     <code>
-                        {`
-                            <ul>
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                            </ul>
-                        `}
+                        &lt;ul&gt; <br />
+                        &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt; <br />
+                        &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt; <br />
+                        &lt;/ul&gt;
                     </code>
                 </p>
                 <p className="blog-body__container-p">
@@ -148,5 +137,5 @@ export default (
                 </p>
             </div>
         </div>
-    </div>
+    </div >
 )
