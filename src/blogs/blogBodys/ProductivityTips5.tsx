@@ -18,7 +18,7 @@ export default (
         <div className="blog-body__container mt-5">
             <div className="blog-body__container-item">
                 <h2 className="blog-body__container-item-header">
-                    1. Schedule your day
+                    1. Schedule Your Day
                 </h2>
                 <p className="blog-body__container-p">
                     Scheduling your day is a great way to stay on track and get things done. It helps you
@@ -37,7 +37,7 @@ export default (
         <div className="blog-body__container mt-5">
             <div className="blog-body__container-item">
                 <h2 className="blog-body__container-item-header">
-                    2. Set attainable goals
+                    2. Set Attainable Goals
                 </h2>
                 <p className="blog-body__container-p">
                     Setting attainable goals is a great way to stay motivated and productive. It helps you
@@ -57,7 +57,7 @@ export default (
         <div className="blog-body__container">
             <div className="blog-body__container-item">
                 <h2 className="blog-body__container-item-header">
-                    3. Prioritize sleep
+                    3. Prioritize Sleep
                 </h2>
                 <p className="blog-body__container-p">
                     Sleep is one of the most important things for your health and productivity. It helps you

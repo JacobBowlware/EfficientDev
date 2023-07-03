@@ -78,6 +78,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
+.blog-body__container-code-img {
+    width: 100%;
+    max-width: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 .blog-body__list {
     padding-left: 1rem;
     list-style-type: disc;
@@ -91,6 +98,10 @@
 
 .blog-body__list-item-icon {
     font-size: .8rem;
+}
+
+.code-block {
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,4 +120,36 @@
     .blog-body__container-p {
         font-size: 1.2rem;
     }
+}
+
+/* Code Block Styles */
+/* Dark mode styles for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #f8f8f2 !important;
+    /* Text color */
+    background: #282a36 !important;
+    /* Background color */
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6272a4 !important;
+    background: #282a36 !important;
+    /* Comment color */
+}
+
+.token.punctuation {
+    color: #f8f8f2 !important;
+    /* Punctuation color */
+}
+
+.token.selector,
+.token.operator,
+.token.tag {
+    color: #8be9fd !important;
+    /* Selector/Operator/Tag color */
 }

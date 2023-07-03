@@ -1,20 +1,21 @@
 import TypeScript from '../../assets/blog-images/TypeScript.png'
+import TSPostCode1 from '../../assets/blog-images/TSPostCode1.png'
 
 export default (
     <div className="blog-body">
         <div className="blog-body__container">
             <div className="blog-body__container-item">
                 <p className="blog-body__container-p">
-                    TypeScript, created by Microsoft, is a superset of JavaScript that compiles to plain JavaScript. Basically,
-                    TypeScript is JavaScript with some additional features. TypeScript is a statically typed language, which means
-                    that it has a type system that allows us to specify the type of variables, function parameters, and function return values. This
-                    helps us catch errors at compile time instead of at runtime.
+                    TypeScript, created by Microsoft, has become one of the most popular programming languages in recent years. Many
+                    developers are switching from JavaScript to TypeScript because of its many benefits. In this blog post, we will discuss
+                    what TypeScript is and why you should use it.
                 </p>
                 <p className="blog-body__container-p">
-                    TypeScript has a module system that allows us to organize our code into reusable modules. This makes
-                    it easier to maintain large applications. TypeScript also has a class-based object-oriented programming model, which
-                    is similar to Java or C# - this makes it easier to write object-oriented code. There are many types in TypeScript, including number, boolean, string, array, tuple, enum - each
-                    serving its own purpose.
+                    TypeScript is a superset of JavaScript that adds static typing to the language. This means that TypeScript will check
+                    your code for errors at compile time instead of at runtime. This makes it easier to write code that is less likely to have
+                    bugs in it - which means less time spent debugging and more time spent building new features. TypeScript also has many other
+                    features that make it easier to write code, such as type inference and generics. In this blog post we will focus on the
+                    type system and how it can help you write better code.
                 </p>
             </div>
         </div>
@@ -33,10 +34,14 @@ export default (
                 </p>
                 <p className="blog-body__container-p">
                     My favorite feature of TypeScript is the type system. It allows us to catch errors at compile time instead of at
-                    runtime, as stated earlier. This makes it easier to write code that is less likely to have bugs in it - which means less
-                    time spent debugging and more time spent building new features. An example of this would be if we were trying to add two
-                    numbers together but accidentally passed in a string instead of a number - TypeScript would catch this error at compile time
-                    and tell us that we need to pass in a number instead of a string.
+                    runtime, as stated earlier. This makes it easier to write code that is less likely to have bugs in it. An example of this would
+                    be if we declared a variable named "name" and assigned it a value of "Jacob", then tried to assign a number to it later on in our code.
+                    <code >
+                        <br />
+                        let name: string = "Jacob"; <br />
+                        name = 4; // This will throw an error because the type of the variable "name" is string, not number <br />
+                        name = "John" // This will work because the type of the variable "name" is string
+                    </code>
                 </p>
             </div>
         </div>
@@ -46,10 +51,9 @@ export default (
                     Syntax and Features
                 </h2>
                 <p className="blog-body__container-p">
-                    The syntax of TypeScript is very similar to JavaScript. The main difference is the type system. For example, in JavaScript
-                    we could declare a variable named "name" and assign it a value of "Jacob". In TypeScript, we would have to declare the type
-                    of the variable as well - so we would write something like this: <code>let name: string = "Jacob"</code>. This tells TypeScript that the
-                    variable "name" is of type string and can only hold string values.
+                    The syntax of TypeScript is very similar to JavaScript. The main difference is the type system. From the example above, we can see that
+                    we declare a variable with a type annotation after it. This tells TypeScript what type the variable should be. In
+                    this case, we are declaring a variable named "name" and assigning it a value of type string.
                 </p>
                 <p className="blog-body__container-p">
                     Now that we have our variable declared, we can use it in our code. For example, if we wanted to print
@@ -83,7 +87,7 @@ export default (
                 </p>
                 <p className="blog-body__container-p">
                     There is a lot more to TypeScript than what I have covered in this blog post. If you are interested in learning more about TypeScript, I recommend
-                    checking out the official documentation at <a href="https://www.typescriptlang.org/docs/">https://www.typescriptlang.org/docs/</a>.
+                    checking out the official documentation at <a href="https://www.typescriptlang.org/docs/" rel='noreferrer' target='_blank'>https://www.typescriptlang.org/docs/</a>.
                 </p>
             </div>
         </div>

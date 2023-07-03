@@ -3,6 +3,12 @@ import {
   RouterProvider, Route, Outlet
 } from 'react-router-dom'
 
+// Prism
+import Prism from 'prismjs';
+import 'prismjs/themes/prism.css'; // Import the Prism.js CSS file
+import 'prismjs/components/prism-javascript'; // Import the JavaScript language module
+import 'prismjs/components/prism-css'; // Import the CSS language module
+
 // Pages
 import Home from './pages/Home'
 import FrontEnd from './pages/blogPages/FrontEnd';
@@ -35,6 +41,9 @@ function App() {
       <Footer />
     </>
   }
+
+  // Initialize Prism.js
+  Prism.highlightAll();
 
   const router = createBrowserRouter(
     createRoutesFromElements(
