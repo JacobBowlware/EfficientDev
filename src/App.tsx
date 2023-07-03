@@ -1,13 +1,7 @@
 import {
   createBrowserRouter, createRoutesFromElements,
   RouterProvider, Route, Outlet
-} from 'react-router-dom'
-
-// Prism
-import Prism from 'prismjs';
-import 'prismjs/themes/prism.css'; // Import the Prism.js CSS file
-import 'prismjs/components/prism-javascript'; // Import the JavaScript language module
-import 'prismjs/components/prism-css'; // Import the CSS language module
+} from 'react-router-dom';
 
 // Pages
 import Home from './pages/Home'
@@ -42,17 +36,14 @@ function App() {
     </>
   }
 
-  // Initialize Prism.js
-  Prism.highlightAll();
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
         <Route path="*" element={<Home />} />
-        <Route path="/blogs/1" element={<FrontEnd />} />
-        <Route path="/blogs/2" element={<BackEnd />} />
-        <Route path="/blogs/3" element={<Productivity />} />
+        <Route path="/blogs/1/" element={<FrontEnd />} />
+        <Route path="/blogs/2/" element={<BackEnd />} />
+        <Route path="/blogs/3/" element={<Productivity />} />
         {posts.map((post) => (
           <Route
             key={post.id}
