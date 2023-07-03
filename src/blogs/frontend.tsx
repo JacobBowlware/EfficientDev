@@ -1,10 +1,14 @@
 import { Post } from "."
+
+// Blog Images
 import ReactJS from '../assets/blog-images/ReactJS.png'
 import HTML from '../assets/blog-images/HTML.png'
+import TypeScript from '../assets/blog-images/TypeScript.png'
 
 // Body HTML 
 import WhatIsReactJS from './blogBodys/WhatIsReactJS';
 import WhatIsHTML from "./blogBodys/WhatIsHTML";
+import WhatIsTypeScript from "./blogBodys/WhatIsTypeScript";
 
 const posts: Post[] = [
     {
@@ -28,14 +32,14 @@ const posts: Post[] = [
         description: "Learn about HTML and CSS, the building blocks of the web.",
     },
     {
-        title: "The Basics of ReactJS",
-        body: WhatIsReactJS,
+        title: "What is TypeScript",
+        body: WhatIsTypeScript,
         author: "Jacob Bowlware",
-        date: "June 28, 2023",
+        date: "July 2, 2023",
         id: 2,
         subjectId: 1,
-        image: ReactJS,
-        description: "Learn the basics of ReactJS, including JSX, components, and more.",
+        image: TypeScript,
+        description: "Learn about TypeScript, the more secure version of JavaScript.",
     },
 ]
 
