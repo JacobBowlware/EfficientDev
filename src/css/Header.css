@@ -49,6 +49,10 @@
     border-bottom: none;
 }
 
+.navbar-toggler-icon {
+    color: var(--var-primary);
+}
+
 @media screen and (min-width: 768px) {
     .navbar {
         padding: 1rem 2rem;

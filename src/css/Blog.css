@@ -94,6 +94,7 @@
 .blog-body__list-item {
     font-weight: 400;
     margin-bottom: .7rem;
+    font-size: 1.1rem;
 }
 
 .blog-body__list-item-icon {
@@ -118,6 +119,10 @@
     }
 
     .blog-body__container-p {
+        font-size: 1.2rem;
+    }
+
+    .blog-body__list-item {
         font-size: 1.2rem;
     }
 }

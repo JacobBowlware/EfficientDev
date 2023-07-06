@@ -39,8 +39,8 @@ export default (
                     <code >
                         <br />
                         let name: string = "Jacob"; <br />
-                        name = 4; // This will throw an error because the type of the variable "name" is string, not number <br />
-                        name = "John" // This will work because the type of the variable "name" is string
+                        name = 4; // error <br />
+                        name = "John" // no error
                     </code>
                 </p>
             </div>

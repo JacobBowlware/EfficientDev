@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import NodeJS from '../../assets/blog-images/NodeJS.jpeg';
 
 export default (
@@ -89,7 +90,7 @@ export default (
                 </p>
                 <p className="blog-body__container-p">
                     If you are interested in learning more about NodeJS and how to use it, check out my
-                    tutorial on <a href="/blogs/what-is-react-js">How to use NodeJS</a>. In this tutorial
+                    tutorial on <Link to="/blogs/2/3">How to use NodeJS</Link>. In this tutorial
                     I will show you how to create a simple NodeJS application. We will pair NodeJS with ExpressJS to
                     create a simple web server that will serve static files.
                 </p>
